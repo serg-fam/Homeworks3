@@ -5,10 +5,10 @@ import java.util.Date;
  * Created by Serg-fam on 27.05.2016 on 11:12.
  */
 public class File {
-    Date creatDate;
-    float size;
-    String name;
-    String type;
+    private Date creatDate;
+    private float size;
+    private String name;
+    private String type;
 
     public File(Date dataGread, float size, String name, String type) {
         this.name = name;
